@@ -10,9 +10,9 @@ import os, sys, subprocess
 from glob import glob
 
 # Temp data
-TMP_PATH = '/home/dp/certhidea/video/maker'
-# Gignle fullpath
-GINGLE = '/home/dp/certhidea/video/intro.mp4'
+TMP_PATH = '/tmp'
+# Gingle fullpath
+GINGLE = '/tmp/gingle.mp4'
 
 try:
     path = sys.argv[1]
